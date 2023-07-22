@@ -35,7 +35,7 @@ try {
         <SavedCoin/>
       </div>
     </div>
-  </div>
+</div>
     )
     
   }
