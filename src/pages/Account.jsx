@@ -45,4 +45,3 @@ else{
 }
    
 export default Account
-//{user?.email}
