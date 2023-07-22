@@ -19,14 +19,6 @@ export const db=getFirestore(app)
 export default app
 
 
-/*service cloud.firestore {
-  match /databases/{database}/documents {
-    
-    match /user/{document} {
-      allow read, write: if request.auth != null;
-    }
-  }
-}*/
 
 //Original
 /*service cloud.firestore {
