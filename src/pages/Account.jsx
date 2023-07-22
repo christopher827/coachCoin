@@ -21,7 +21,7 @@ return(   <div className='max-w-[1140px] mx-auto'>
   <div>
   <h1 className='text-2xl font-bold'>Account</h1>
         <div>
-      <p>Welcome, {user?.email} </p>
+    <p>Welcome, {user?.email} </p>
 </div>
 </div>
     
