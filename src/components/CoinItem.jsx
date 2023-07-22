@@ -54,7 +54,7 @@ alert("Please sign in to save a coin to your watch list")
   <Sparklines data={coin.sparkline_in_7d.price}>
 <SparklinesLine color='teal'/>
   </Sparklines>
-  </td>
+</td>
 
 </tr>
   )
