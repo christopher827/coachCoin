@@ -19,7 +19,7 @@ navigate('/')
   return(   <div className='max-w-[1140px] mx-auto'>
   <div className='flex justify-between items-center my-12 py-8 rounded-div'>
   <div>
-        <h1 className='text-2xl font-bold'>Account</h1>
+      <h1 className='text-2xl font-bold'>Account</h1>
         <div>
       <p>Welcome, {user?.email} </p>
     </div>
