@@ -12,7 +12,7 @@ function CoinItem({coin}) {
 
   const coinPath=doc(db,'users',`${user?.email}`)
   const saveCoin=async()=>{
-    if (user?.email) {
+  if (user?.email) {
       setSavedCoin(true)
       await updateDoc(coinPath,{
         watchList:arrayUnion({
