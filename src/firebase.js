@@ -17,6 +17,7 @@ export const auth=getAuth(app)
 export const db=getFirestore(app)
 
 export default app
+
 /*
 const firebaseConfig = {
   apiKey: "AIzaSyCx2iKs4eVArGxvW0NgItB8_tdf7RHrtk4",
