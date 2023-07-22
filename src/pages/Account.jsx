@@ -34,7 +34,7 @@ navigate('/')
         <h1 className='text-2xl font-bold py-4'>Watch List</h1>
         <SavedCoin/>
       </div>
-  </div>
+</div>
 </div>
     )
     
