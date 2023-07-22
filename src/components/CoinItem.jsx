@@ -30,7 +30,7 @@ alert("Please sign in to save a coin to your watch list")
     }
   }
 
-  return (
+return (
 <tr className='h-[80px] border-b overflow-hidden'>
 <td onClick={saveCoin}>{savedCoin ?<AiFillStar/>:<AiOutlineStar/>}</td>
 <td>{coin.market_cap_rank}</td>
