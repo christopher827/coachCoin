@@ -20,7 +20,6 @@ export default app
 
 
 
-//Original
 /*service cloud.firestore {
   match /databases/{database}/documents {
     match /{document=**} {
