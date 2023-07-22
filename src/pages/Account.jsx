@@ -4,7 +4,7 @@ import {UserAuth} from "../context/AuthContext"
 import { Navigate, useNavigate } from 'react-router-dom'
 
 function Account() {
-  const {user,logout}=UserAuth()
+const {user,logout}=UserAuth()
   const navigate=useNavigate()
 
   const handleSignOut=async()=>{
