@@ -19,7 +19,6 @@ export const db=getFirestore(app)
 export default app
 
 
-//chatGPT
 /*service cloud.firestore {
   match /databases/{database}/documents {
     
