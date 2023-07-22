@@ -7,7 +7,7 @@ function Account() {
 const {user,logout}=UserAuth()
 const navigate=useNavigate()
 
-  const handleSignOut=async()=>{
+const handleSignOut=async()=>{
 try {
 await logout()
 navigate('/')
