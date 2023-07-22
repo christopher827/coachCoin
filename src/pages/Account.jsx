@@ -38,7 +38,7 @@ console.log(e.message)
 </div>
     )
     
-  }
+}
 else{
 return <Navigate to='/signin'/>
 }
