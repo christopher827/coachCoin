@@ -22,7 +22,7 @@ if (user) {
   <h1 className='text-2xl font-bold'>Account</h1>
         <div>
       <p>Welcome, {user?.email} </p>
-    </div>
+  </div>
 </div>
     
 <div>
