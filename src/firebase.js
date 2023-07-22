@@ -18,4 +18,3 @@ export const db=getFirestore(app)
 
 export default app
 
-
