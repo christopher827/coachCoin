@@ -23,7 +23,7 @@ const {user}=UserAuth()
     symbol:coin.symbol
 
       })
-  })
+})
   }
 else{
 alert("Please sign in to save a coin to your watch list")
