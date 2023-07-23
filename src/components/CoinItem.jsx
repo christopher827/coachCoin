@@ -18,7 +18,7 @@ const saveCoin=async()=>{
   watchList:arrayUnion({
   id:coin.id,
   name:coin.name,
-        image:coin.image,
+      image:coin.image,
         rank:coin.market_cap_rank,
     symbol:coin.symbol
 
