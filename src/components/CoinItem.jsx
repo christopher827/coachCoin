@@ -8,7 +8,7 @@ import { arrayUnion,doc,updateDoc } from 'firebase/firestore'
 
 function CoinItem({coin}) {
 const [savedCoin,setSavedCoin]=useState(false)
-  const {user}=UserAuth()
+const {user}=UserAuth()
 
   const coinPath=doc(db,'users',`${user?.email}`)
   const saveCoin=async()=>{
