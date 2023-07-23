@@ -57,7 +57,7 @@ return (
 </td>
 
 </tr>
-  )
+)
 }
 
 export default CoinItem
