@@ -16,7 +16,7 @@ const {user}=UserAuth()
   setSavedCoin(true)
   await updateDoc(coinPath,{
   watchList:arrayUnion({
-      id:coin.id,
+    id:coin.id,
           name:coin.name,
           image:coin.image,
         rank:coin.market_cap_rank,
