@@ -22,7 +22,7 @@ const {user}=UserAuth()
         rank:coin.market_cap_rank,
     symbol:coin.symbol
 
-        })
+      })
   })
   }
 else{
