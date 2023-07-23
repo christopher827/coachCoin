@@ -14,7 +14,7 @@ const {user}=UserAuth()
   const saveCoin=async()=>{
   if (user?.email) {
   setSavedCoin(true)
-   await updateDoc(coinPath,{
+  await updateDoc(coinPath,{
         watchList:arrayUnion({
           id:coin.id,
           name:coin.name,
@@ -25,7 +25,7 @@ const {user}=UserAuth()
         })
       })
     }
-  else{
+else{
 alert("Please sign in to save a coin to your watch list")
     }
 }
