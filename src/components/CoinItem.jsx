@@ -7,7 +7,7 @@ import {db} from "../firebase"
 import { arrayUnion,doc,updateDoc } from 'firebase/firestore'
 
 function CoinItem({coin}) {
-  const [savedCoin,setSavedCoin]=useState(false)
+const [savedCoin,setSavedCoin]=useState(false)
   const {user}=UserAuth()
 
   const coinPath=doc(db,'users',`${user?.email}`)
