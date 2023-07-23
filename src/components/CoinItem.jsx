@@ -24,7 +24,7 @@ const saveCoin=async()=>{
 
       })
 })
-  }
+}
 else{
 alert("Please sign in to save a coin to your watch list")
     }
