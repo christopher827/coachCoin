@@ -20,7 +20,7 @@ function CoinItem({coin}) {
           name:coin.name,
           image:coin.image,
           rank:coin.market_cap_rank,
-          symbol:coin.symbol
+        symbol:coin.symbol
 
         })
       })
