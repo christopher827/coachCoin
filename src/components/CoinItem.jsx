@@ -22,7 +22,7 @@ if (user?.email) {
     rank:coin.market_cap_rank,
     symbol:coin.symbol
 
-      })
+    })
 })
 }
 else{
