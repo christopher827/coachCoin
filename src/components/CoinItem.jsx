@@ -38,7 +38,7 @@ return (
   <Link to={`/coin/${coin.id}`}>
   <div className='flex items-center'>
     <img className='w-6 mr-6  rounded-full' src={coin.image} alt={coin.id}/><p>{coin.name}</p>
-    </div>
+  </div>
 
   </Link>
 
