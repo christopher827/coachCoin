@@ -15,7 +15,7 @@ const {user}=UserAuth()
   if (user?.email) {
   setSavedCoin(true)
   await updateDoc(coinPath,{
-        watchList:arrayUnion({
+      watchList:arrayUnion({
           id:coin.id,
           name:coin.name,
           image:coin.image,
