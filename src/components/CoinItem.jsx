@@ -17,7 +17,7 @@ const {user}=UserAuth()
   await updateDoc(coinPath,{
   watchList:arrayUnion({
   id:coin.id,
-      name:coin.name,
+    name:coin.name,
           image:coin.image,
         rank:coin.market_cap_rank,
     symbol:coin.symbol
