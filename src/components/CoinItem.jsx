@@ -11,7 +11,7 @@ const [savedCoin,setSavedCoin]=useState(false)
 const {user}=UserAuth()
 
 const coinPath=doc(db,'users',`${user?.email}`)
-  const saveCoin=async()=>{
+const saveCoin=async()=>{
   if (user?.email) {
   setSavedCoin(true)
   await updateDoc(coinPath,{
