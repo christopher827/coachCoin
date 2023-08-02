@@ -4,7 +4,7 @@ import { Link,useNavigate } from 'react-router-dom'
 import {UserAuth, signIn } from "../context/AuthContext"
 
 function SignIn() {
-  const [email,setEmail]=useState('')
+const [email,setEmail]=useState('')
   const [password,setPassword]=useState('')
   const [error,setError]=useState('')
   const navigate=useNavigate()
