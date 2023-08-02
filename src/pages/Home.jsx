@@ -3,7 +3,7 @@ import CoinSearch from '../components/CoinSearch'
 import Trending from '../components/Trending'
 
 function Home({coins}) {
-  return (
+return (
 <div>
 <CoinSearch coins={coins}/>
 <Trending/>
