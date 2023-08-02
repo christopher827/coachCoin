@@ -11,7 +11,7 @@ const navigate=useNavigate()
 const {signIn}=UserAuth()
 
   const handleSubmit = async(e)=>{
-    e.preventDefault()
+  e.preventDefault()
     setError('')
     try {
       await signIn(email,password)
