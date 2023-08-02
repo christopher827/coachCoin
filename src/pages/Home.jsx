@@ -8,7 +8,7 @@ return (
 <CoinSearch coins={coins}/>
 <Trending/>
 </div>
-  )
+)
 }
 
 export default Home
