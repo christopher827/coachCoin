@@ -12,7 +12,7 @@ const {signIn}=UserAuth()
 
   const handleSubmit = async(e)=>{
   e.preventDefault()
-    setError('')
+  setError('')
     try {
       await signIn(email,password)
       navigate('/account')
