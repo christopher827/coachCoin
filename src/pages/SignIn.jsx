@@ -8,7 +8,7 @@ const [email,setEmail]=useState('')
 const [password,setPassword]=useState('')
 const [error,setError]=useState('')
 const navigate=useNavigate()
-  const {signIn}=UserAuth()
+const {signIn}=UserAuth()
 
   const handleSubmit = async(e)=>{
     e.preventDefault()
