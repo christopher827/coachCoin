@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+ import React,{useState} from 'react'
 import { AiFillLock, AiOutlineMail } from 'react-icons/ai'
 import { Link,useNavigate } from 'react-router-dom'
 import {UserAuth, signIn } from "../context/AuthContext"
@@ -49,3 +49,19 @@ const {signIn}=UserAuth()
   )
 }
 export default SignIn
+
+
+#!/bin/bash
+
+day=$(date | cut -d' ' -f1)
+
+if [ "$day" == "Mon" ]
+then
+     echo Moanday
+elif [ "$day" == "Fri" ]
+then
+     echo Friyay
+   
+else
+    echo Foobar
+fi
